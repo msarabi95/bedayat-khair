@@ -79,9 +79,9 @@ body {
     min-height: 740px;
 }
 
-.step.future {
+/*.step.future {
   display: none;
-}
+}*/
 
 .step.present {
   animation: fadeIn 500ms;
