@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+cmargin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+.step {
+    position: relative;
+    width: 900px;
+    padding: 40px;
+    margin: 20px auto;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'GE Dinar One',Arial;
+    font-size: 48px;
+    line-height: 1.5;
+}
+
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.3;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.impress-enabled .step.active { opacity: 1 }
+
+/* What's above is copied from impress.js demo. */
+
+@font-face {
+    font-family: 'GE Dinar One';
+    font-weight: lighter;
+    font-size: xx-large;
+    src: url("../fonts/ge-dinar-one-light.woff");
+}
+
+@font-face {
+    font-family: 'GE Dinar One';
+    font-weight: normal;
+    src: url("../fonts/ge-dinar-one-med.woff");
+}
+
+@font-face {
+  font-family: 'Love Ya Like A Sister';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Love Ya Like A Sister Regular'), local('LoveYaLikeASister-Regular'), url(../fonts/LoveYaLikeASister.woff) format('woff');
+}
+
+
+body {
+    /*background-image: url("../img/enjaz-home.png");*/
+    background-color: rgb(17, 31, 70); /* #00A651; /* rgb(233, 225, 71);*/
+    color: white;
+    min-height: 740px;
+}
+
+.step.future {
+  display: none;
+}
+
+.step.present {
+  animation: fadeIn 500ms;
+}
+
+h1 {
+  font-size: 3em;
+  text-shadow: 10px 10px 20px black;
+}
+
+p {
+    font-size:60px;
+    text-align:center;
+    text-shadow: 5px 5px 10px black;
+}
+
+p.small {
+    font-size: 20px;
+}
+
+.ruqaa {
+  font-family: 'Aref Ruqaa', serif;
+}
+.center {
+    text-align:center;
+}
+.counter {
+    display: none;
+    margin: 0;
+    padding-bottom: 70px;
+    font-size: 150px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+.counter-text {
+   display: none;
+   padding: 0;
+   margin: 0;
+}
+
+#enjaz #title-container {
+  position: relative;
+}
+
+#enjaz #title {
+  font-size: 8em;
+  text-shadow: 10px 10px 20px black;
+}
+
+#enjaz #subtitle {
+  position: absolute;
+  left: -90px;
+  bottom: -90px;
+  z-index: 1;
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 2.5em;
+  color: green;
+  text-shadow: 5px 5px 10px black;
+}
+
+#enjaz.active .background-image {
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  z-index: -1;
+
+  display: block;
+  background-image: url('../img/bedayat-khair-15-16_3.jpg');
+  background-size: cover;
+  background-position: center center;
+  width: 200%;
+  height: 200%;
+
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+
+#whatis .container {
+  position: relative;
+}
+
+#whatis .container h1 {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+#whatis .container img {
+  margin-top: 280px;
+}
+
+/*#whatis .background-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url('../img/screenshots/enjazportal.com-(iPad).png');
+  background-size: contain;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}*/
