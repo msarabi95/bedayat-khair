@@ -141,6 +141,18 @@ p.small {
   text-shadow: 5px 5px 10px black;
 }
 
+#enjaz #apps-subtitle {
+  position: absolute;
+  right: 70px;
+  bottom: -50px;
+  z-index: 2;
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 1em;
+  color: red;
+  text-shadow: 5px 5px 10px black;
+  transform: rotateZ(-3deg);
+}
+
 #enjaz.active .background-image {
   position: absolute;
   top: -50%;
@@ -194,3 +206,13 @@ p.small {
   -ms-filter: blur(10px);
   filter: blur(10px);
 }*/
+
+#apps3 #apps-container {
+  position: relative;
+}
+
+#apps3 #apps-container .twitter-tweet {
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+}
